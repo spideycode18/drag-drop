@@ -1,0 +1,23 @@
+<hello name="{{ name }}"></hello>
+<input
+  id="text"
+  type="text"
+  [formControl]="text"
+  style="margin-bottom: 15px;
+ "
+  maxlength="10"
+/>
+<br />
+<div
+  #container
+  class="container"
+  style="background-color: gray; display: inline-block;"
+>
+  <img
+    src="https://e7.pngegg.com/pngimages/224/407/png-clipart-pc-mouse-pc-mouse.png"
+    alt=""
+  />
+  <div #draggable class="draggable">
+    <span class="draggable_text">{{ text.value }}</span>
+  </div>
+</div>

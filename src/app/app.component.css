@@ -1,0 +1,33 @@
+p {
+  font-family: Lato;
+}
+
+.container {
+  padding: 5px;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+.draggable {
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+  cursor: move;
+  width: auto;
+  display: inline;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+}
+
+.draggable_text {
+  transform: rotate(-90deg);
+  display: inline-block;
+  width: 80px;
+}
